@@ -225,7 +225,8 @@ export default {
                         {text: '轮播 (Carousel)', link: 'view/carousel', icon: '/components/view/carousel.svg', version: '2025.1.0'},
                         {text: '跑马灯 (Marquee)', link: 'view/marquee', icon: '/components/view/marquee.svg', version: '2025.1.2'},
                         {text: '通知中心 (Notification)', link: 'view/notification', icon: '/components/view/notification.svg', version: '2025.1.3'},
-                        {text: '时间 (Time)', link: 'view/time', icon: '/components/view/time.svg', version: '2025.1.3'}
+                        {text: '时间 (Time)', link: 'view/time', icon: '/components/view/time.svg', version: '2025.1.3'},
+                        {text: '宏录制器 (Macro Recorder)', link: 'view/macro', icon: '/components/view/macro.svg', version: '2025.1.4'}
                     ]
 
                     return {
