@@ -104,6 +104,7 @@ import { ShadcnMarquee } from '@/ui/marquee'
 import { ShadcnNotification, ShadcnNotificationItem } from '@/ui/notification'
 import { ShadcnTime } from '@/ui/time'
 import { ShadcnIPInput } from '@/ui/ip-input'
+import { ShadcnRecorder } from '@/ui/recorder'
 
 let components = [
     ShadcnButton,
@@ -204,7 +205,8 @@ let components = [
     ShadcnMarquee,
     ShadcnNotification, ShadcnNotificationItem,
     ShadcnTime,
-    ShadcnIPInput
+    ShadcnIPInput,
+    ShadcnRecorder
 ]
 
 interface InstallOptions
@@ -341,6 +343,7 @@ export { ShadcnMarquee } from '@/ui/marquee'
 export { ShadcnNotification, ShadcnNotificationItem } from '@/ui/notification'
 export { ShadcnTime } from '@/ui/time'
 export { ShadcnIPInput } from '@/ui/ip-input'
+export { ShadcnRecorder } from '@/ui/recorder'
 
 // Export functions
 export { fnToString, fnToFunction } from '@/utils/formatter'
