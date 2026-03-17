@@ -333,5 +333,25 @@ export default {
             clearAll: '全部清除',
             noData: '暂无数据'
         }
+    },
+    macro: {
+        text: {
+            title: '宏录制器',
+            recording: '录制中',
+            replaying: '回放中',
+            startRecord: '开始录制',
+            stopRecord: '停止录制',
+            replay: '回放',
+            export: '导出',
+            import: '导入',
+            delete: '删除',
+            actions: '个操作',
+            empty: '暂无录制的宏',
+            speed: '速度',
+            replayProgress: '回放进度'
+        },
+        placeholder: {
+            name: '宏名称（可选）'
+        }
     }
 }

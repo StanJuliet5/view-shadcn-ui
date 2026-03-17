@@ -333,5 +333,25 @@ export default {
             clearAll: 'Clear All',
             noData: 'No data'
         }
+    },
+    macro: {
+        text: {
+            title: 'Macro Recorder',
+            recording: 'Recording',
+            replaying: 'Replaying',
+            startRecord: 'Start Recording',
+            stopRecord: 'Stop Recording',
+            replay: 'Replay',
+            export: 'Export',
+            import: 'Import',
+            delete: 'Delete',
+            actions: 'actions',
+            empty: 'No macros recorded yet',
+            speed: 'Speed',
+            replayProgress: 'Replay Progress'
+        },
+        placeholder: {
+            name: 'Macro name (optional)'
+        }
     }
 }

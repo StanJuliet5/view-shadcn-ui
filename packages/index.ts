@@ -104,6 +104,7 @@ import { ShadcnMarquee } from '@/ui/marquee'
 import { ShadcnNotification, ShadcnNotificationItem } from '@/ui/notification'
 import { ShadcnTime } from '@/ui/time'
 import { ShadcnIPInput } from '@/ui/ip-input'
+import { ShadcnMacro } from '@/ui/macro'
 
 let components = [
     ShadcnButton,
@@ -204,7 +205,8 @@ let components = [
     ShadcnMarquee,
     ShadcnNotification, ShadcnNotificationItem,
     ShadcnTime,
-    ShadcnIPInput
+    ShadcnIPInput,
+    ShadcnMacro
 ]
 
 interface InstallOptions
@@ -341,6 +343,8 @@ export { ShadcnMarquee } from '@/ui/marquee'
 export { ShadcnNotification, ShadcnNotificationItem } from '@/ui/notification'
 export { ShadcnTime } from '@/ui/time'
 export { ShadcnIPInput } from '@/ui/ip-input'
+export { ShadcnMacro } from '@/ui/macro'
+export type { MacroAction, MacroRecord, MacroProps, MacroActionType } from '@/ui/macro'
 
 // Export functions
 export { fnToString, fnToFunction } from '@/utils/formatter'
