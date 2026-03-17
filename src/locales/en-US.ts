@@ -333,5 +333,21 @@ export default {
             clearAll: 'Clear All',
             noData: 'No data'
         }
+    },
+    recorder: {
+        button: {
+            startRecord: 'Start Recording',
+            stopRecord: 'Stop Recording',
+            replay: 'Replay',
+            export: 'Export',
+            import: 'Import',
+            backToIdle: 'Back'
+        },
+        text: {
+            recording: 'Recording',
+            replaying: 'Replaying',
+            events: 'events',
+            slotHint: 'Interact with the content above to record your actions'
+        }
     }
 }

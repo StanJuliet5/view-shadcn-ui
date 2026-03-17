@@ -333,5 +333,21 @@ export default {
             clearAll: '全部清除',
             noData: '暂无数据'
         }
+    },
+    recorder: {
+        button: {
+            startRecord: '开始录制',
+            stopRecord: '停止录制',
+            replay: '回放',
+            export: '导出',
+            import: '导入',
+            backToIdle: '返回'
+        },
+        text: {
+            recording: '录制中',
+            replaying: '回放中',
+            events: '个事件',
+            slotHint: '在上方区域进行操作以录制您的行为'
+        }
     }
 }
